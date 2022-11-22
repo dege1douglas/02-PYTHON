@@ -1,3 +1,6 @@
+#~Douglas da Costa Gomes~
+#~TURMA - 2M~
+
 #inicio algoritmo
 #resolução para equações do segundo grau
 import os

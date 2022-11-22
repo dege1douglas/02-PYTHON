@@ -67,6 +67,7 @@ while menu != 5:
             print(multP,"é o valor da multiplicação.")
             print()
             looP = input("Pressione <ENTER> para voltar ao menu.")
+
 #fim do switch case, e do algoritmo
 else: 
     print("O programa foi executado com sucesso!")

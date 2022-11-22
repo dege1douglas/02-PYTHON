@@ -1,3 +1,6 @@
+#~Douglas da Costa Gomes~
+#~TURMA - 2M~
+
 menu=0
 import os
 

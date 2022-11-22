@@ -1,5 +1,7 @@
 menu=0
+ #inicio tratamento do switch case
 
+#menu principal, para retorno
 while menu != 5:
     print()
     print("ESCOLHA NA LISTA A OPERAÇÃO DESEJADA:")
@@ -10,8 +12,10 @@ while menu != 5:
     print("<4> - MULTIPLICAÇÃO")
     print("<5> - SAIR DO PROGRAMA")
     menu = int(input("Digite sua escolha.\n"))
-
+ 
     match menu:
+        
+        #inicio tratamento do caso adição
         case 1:
             print()
             print("~ADIÇÃO~")
@@ -23,6 +27,8 @@ while menu != 5:
             print(soma,"é o valor da soma.")
             print()
             looP = input("Pressione <ENTER> para voltar ao menu.")
+            
+        #inicio tratamento do caso subtração
         case 2:
             print()
             print("~SUBTRAÇÃO~")
@@ -61,5 +67,6 @@ while menu != 5:
             print(multP,"é o valor da multiplicação.")
             print()
             looP = input("Pressione <ENTER> para voltar ao menu.")
+#fim do switch case, e do algoritmo
 else: 
     print("O programa foi executado com sucesso!")

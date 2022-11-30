@@ -48,20 +48,6 @@ while menuz != 4:
             looP = input("Pressione <ENTER> para começar o jogo:::")
             time.sleep(5) #minuto a minuto do jogo - melhores momentos
             print("          ~INÍCIO DO JOGO~")
-            print("          _...----.._              ")
-            print("        ,:':::::.     `>.          ")
-            print("      ,' |:::::;'     |:::.        ")
-            print("     /    `'::'       :::::\        ")
-            print("    /         _____     `::;\       ")
-            print("   :         /:::::\      `  :     ")
-            print("   | ,.     /::SSt::\        |       ")
-            print("   |;:::.   `::::::;'        |       ")
-            print("   ::::::     `::;'      ,.  ;    ")
-            print("    \:::'              ,::::/      ")
-            print("     \                 \:::/         ")
-            print("      `.     ,:.        :;'         ")
-            print("        `-.::::::..  _.''            ") 
-            print("           ```----'''                ")
             
             #time casa
             goll=0

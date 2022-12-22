@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cadastro-pessoal",
+  "private_key_id": "85ff39fbe3486037199a5b7b04abf2d8b6aebf40",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDAb66KH+kw9l2W\nfrn42y1MW9syvGfkY/avyFgpLggvioCCqsm50PsOUkaP428Qal08a/6uFANXnKhf\nv4N1AU6Bamv8J6CggPB+OsuFMamqMKdbbd4dHCMf293iNlB70dAJzQ+K/ERWsfbQ\nlgqVGFw3PVYguTU+QIxbGQeZlQ/yCxXkF2gGYbmwKVLL3QnAj2Tl3JMDlzTH2CxT\nKugIcd6RB8ePBEgsbaMVat7BSRV29O1AdZfPBBjE3KJjCBCO2rQ+SCFwkDRPlssy\nlD+trmqYoAIx3Y0N+rjuh4bxT9cZFkg0f+Wmxa04NpzWl3sie7b8Nf3f7qFHiNF6\nhFMQKypfAgMBAAECggEAE4cBuih00bAeXRgs/PtuGaffPW3FnnUlDOoSmtMop30G\n1LufTsjNwRfzlcRUJTagkXIQB6V7lVdjSpwKK0RfrV2ZlEkye+G5sHAnmN4qQ7KT\njlaUHyDCJl3O9+vft5YvOzS2KroLS+oxNodojtVIU56uGmdQ536bVN8xrecPatXX\nbcrfPe9VPTUFl1G/+xeZAFdwDUXZQtYAQsrFaWyO/zuquBN+lP1fgOV1yrd0ot1j\n0iIBHAJwYQqMmUqMSeb45oU2iuNJ6wmaQDQI5R9IajtnEK1Tes85/l8KJvBxJKj9\ns5raGJcVNQBkrihgzOD7uqmKWGJJOAUeiSo+yZ5UqQKBgQDfbd4X2vDO8u4vyykY\n4EdujgOuzQK27k7Oj1fl/P2sdhgAXQSfgzT/I8ssKcZnRtaB1AFb7k0nro4kzWvg\nmTKpMPqvwR4vTxKZ2MTKswcnqPYYOWUzvpDlNZifO7UQa4649V0FYFQYMMNJanSu\nYQiwSza1y4Thl5qJzOod8iNV5QKBgQDcfTFOFenYt0RlXdvcXV2HQDu6zfGJlv7Y\n4LGZk5VwSBPmg49VL8yRYRQ+pysKfCgruJo+fq/el2TEV9V7qRtao6TjTcdrk6j7\ndBQC8/LRZYpTCAUDjXBkOEixM8dmkQNOCjyQM+vIokb0RNgFE2Yya/dtrcNQjiHx\nkXixj9P68wKBgQC/D+nrRmvE3RL4Reg4AJq1HLZjhab7neBAXW4SG30mPLqbnO+2\nJHJueEJm2rZyXK5UyWH8JlVOSMP/DrdgkkEzU9Ib964DUMAcVbU7jUriDGeeIX68\neAraJzIDgQB+MSwUWKYaUdy37wMgxetPr2TJtRfs8EQK0iTyEAxoXUcATQKBgQCf\n7ktCOZDqulxpLoCYwjxiK4xnvpQx2g224JzSKgPectnEfa8M+mPnG8SkgXst2ssE\nk52GMTx+N9BGvvNCBHKr90FWAwfglzWeVx9g2PRLQNzpx0pjvkdE2rKXnlhHpG4C\nQFiXvKGNYXAYJIuQevbJIhlSPBUNLFugroUePpZjUwKBgQDEJJuYUcO1XZleQk5a\nodZ9V+BsmVcyVHgMsU26kiy1D0Dq7ePFrtCE7sTaIgxDkUYVc/psapaXqgvI6kWZ\n/yiT6xyhoDd3QZiWqw4pDV65PPABa6kyxzmL2kV9TUHVxzNZvvzKm23oWeMYRX50\nlrm9H50xvmYfp9RNBScjm8PiCg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ui45d@cadastro-pessoal.iam.gserviceaccount.com",
+  "client_id": "113809678363683763461",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ui45d%40cadastro-pessoal.iam.gserviceaccount.com"
+}

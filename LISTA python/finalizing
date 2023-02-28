@@ -1,0 +1,26 @@
+#Faça um Programa que peça as quatro notas de 10 alunos
+#, calcule e armazene num vetor a média de cada aluno, imprima o número de alunos com média maior ou igual a 7.0.
+
+import random
+
+notas = []
+for x in range(4):
+    aluno=[]
+    aluno.insert(x, input('NOME ALUNO'))
+    for y in range(4):
+        aluno.append(random.randint(0,10))
+    notas.append(aluno)
+
+for f in range(4):
+    media = []
+    for h in range(4):
+        media[f] = media[f]+notas[f][h]
+media[f]= media[f]/4
+
+for p in range(4):
+    for ff in range(4):
+        print(aluno[p])
+        print(notas[p][ff])
+        print(media[p])
+
+pause = input(' ')

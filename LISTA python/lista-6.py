@@ -1,6 +1,5 @@
 #Faça um Programa que peça as quatro notas de 10 alunos
 #, calcule e armazene num vetor a média de cada aluno, imprima o número de alunos com média maior ou igual a 7.0.
-
 import random
 import time
 notas = [[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
@@ -24,5 +23,8 @@ for x in range(0,4): #percorrrer a lista e a matriz(colunas)
         print(f'{notas[x][y]:<7}', end='')
     print(f'{med[x]:<7}')
     print()
-
-    
+for x in range(0,4):
+    if med[x]>7:
+        print('Alunos c/ média > 7')
+        print(f'{aluno[x]:^10}', end='')
+        print()

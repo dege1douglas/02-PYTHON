@@ -2,8 +2,8 @@
 numero=str(input('DIGITE VALOR INTEIRO'))
 j=len(numero)
 l=0
+resul=int
 for i in range(j):
     l=j-1
-    inv=(numero[l:j])
-    print(inv)
+    print(f'{numero[l:j]}',end='')
     j-=1

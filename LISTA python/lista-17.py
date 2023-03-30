@@ -12,15 +12,21 @@ salto5=[]
 atleta=[]
 media=0
 x=0
-while x!=1:
-    for i in range(50):
-        atleta.insert(i,str(input('Nome do atleta.\n')))
-        salto1.insert(i,float(random.randint(4.0,8.9)))
-        salto2.insert(i,float(random.randint(4.0,8.9)))
-        salto3.insert(i,float(random.randint(4.0,8.9)))
-        salto4.insert(i,float(random.randint(4.0,8.9)))
-        salto5.insert(i,float(random.randint(4.0,8.9)))
-        if atleta[i]=='':
-            x=1
-else:
-    print('Não foi informando um nome válido. Programa finalizado.')
+j=1
+for i in range(j):
+    atleta.append(str(input('Nome do atleta.\n')))
+    if atleta[x]=='':
+        x=1
+        print('Não foi informando um nome válido. Programa finalizado.')
+        break
+    elif atleta[i]!='':
+        j+=1
+        salto1.append(round(random.uniform(3.1,8.9),2))
+        salto2.append(round(random.uniform(3.1,8.9),2))
+        salto3.append(round(random.uniform(3.1,8.9),2))
+        salto4.append(round(random.uniform(3.1,8.9),2))
+        salto5.append(round(random.uniform(3.1,8.9),2))
+        media=salto1[i]+salto2[i]+salto3[i]+salto4[i]+salto5[i]
+    media=round(media/5,2)
+    print(f'{salto1[i]}\n{salto2[i]}\n{salto3[i]}\n{salto4[i]}\n{salto5[i]}\n{media}')
+    

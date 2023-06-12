@@ -24,9 +24,11 @@ while x!=1:
             salto4.append(round(random.uniform(3.1,8.9),2))
             salto5.append(round(random.uniform(3.1,8.9),2))
             media=salto1[i]+salto2[i]+salto3[i]+salto4[i]+salto5[i]
-            print(f'Atleta:{atleta[i]:^10}\n1º salto:{salto1[i]:>6}\n2º salto:{salto2[i]:>6}\n3º salto:{salto3[i]:>6}\n4º salto:{salto4[i]:>6}\n5º salto:{salto5[i]:>6}')
-            print()
     med.append(round(media/5,2))
+for i in range(len(atleta)):
+    if atleta[i]!='':    
+        print(f'Atleta:{atleta[i]:^10}\n1º salto:{salto1[i]:>6}\n2º salto:{salto2[i]:>6}\n3º salto:{salto3[i]:>6}\n4º salto:{salto4[i]:>6}\n5º salto:{salto5[i]:>6}')
+        print()
 else:
     for i in range(len(atleta)):
         if atleta[i]!='':

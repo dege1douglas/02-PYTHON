@@ -2,12 +2,10 @@
 import random
 day=random.randint(1,31)
 month=random.randint(1,12)
-monthSelected=''
 extenseMonth='janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'
 year=random.randint(1980,2023)
 def tranformData(day, month, year):
     print(f'{day}/{month}/{year}')
     print('::TRANSFORMAÇÃO::')
-    monthSelected=extenseMonth[month-1]
-    print(f'{day} de {monthSelected} de {year}')
+    print(f'{day} de {extenseMonth[month-1]} de {year}')
 tranformData(day,month,year)
